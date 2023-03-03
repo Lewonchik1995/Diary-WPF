@@ -13,7 +13,7 @@ namespace Wpf_Diary
         public MainWindow()
         {
             InitializeComponent();
-            Note.Notes();
+            Note.notes = De_Serialize.Deserialize<List<Note>>();
             Date.Text = DateTime.Today.ToString();
             List_by_date();
         }
@@ -23,14 +23,14 @@ namespace Wpf_Diary
             Note.notes.RemoveAt(Convert.ToInt32(note_index));
             note_index = null;
             List_by_date();
-            De_Serialize.SerializeXML();
+            De_Serialize.Serialize(Note.notes);
         }
 
         private void Button_create_Click(object sender, RoutedEventArgs e)
         {
             Note.Create_note(Convert.ToDateTime(Date.Text).Date, Note_name.Text, Note_description.Text);
             List_by_date();
-            De_Serialize.SerializeXML();
+            De_Serialize.Serialize(Note.notes);
         }
 
         private void Button_save_Click(object sender, RoutedEventArgs e)
@@ -38,7 +38,7 @@ namespace Wpf_Diary
             Note.Update_note(note_index, Convert.ToDateTime(Date.Text).Date, Note_name.Text, Note_description.Text);
             note_index = null;
             List_by_date();
-            De_Serialize.SerializeXML();
+            De_Serialize.Serialize(Note.notes);
         }
 
         private void Date_SelectedDateChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)

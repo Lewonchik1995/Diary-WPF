@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "978Tmxj8DiAZHA2kW2RZC96AtwHqJ6URybv1sReXX46+aucj+2wtYszx82HMmivZ1CURH6Rb0ls88Zw1py89CQ==",
+  "dgSpecHash": "P16tbj/Rgyi7Jrm28yn1KMCkiQqTbgPx0aswWNN9yZ3N6KfVVsL8TVIht01/ho86sIc/ISo2EmDGiBklIWkizQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AlexeyProtsenko\\Desktop\\Основы алгоритмизации и программирования\\С#\\Wpf_Diary\\Wpf_Diary.csproj",
+  "projectFilePath": "C:\\Users\\AlexeyProtsenko\\Source\\Repos\\Diary-WPF\\Wpf_Diary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AlexeyProtsenko\\.nuget\\packages\\enums.net\\4.0.0\\enums.net.4.0.0.nupkg.sha512",
     "C:\\Users\\AlexeyProtsenko\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",

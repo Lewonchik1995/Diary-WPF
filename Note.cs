@@ -19,7 +19,7 @@ namespace Wpf_Diary
         public static void Notes()
         {
             Note note1 = new();
-            note1.Date_note = new DateTime(2023, 02, 18);
+            note1.Date_note = new DateTime(2023, 03, 03);
             note1.Name = "Сходить на пары";
             note1.Text = "10.10-11.40 2 Основы алгоритмизации и программирования\tИ.Д. Буканов\r\n" +
                 "12.00-13.30 3 Основы алгоритмизации и программирования\tИ.Д. Буканов\r\n" +
@@ -29,14 +29,14 @@ namespace Wpf_Diary
             notes.Add(note1);
 
             Note note2 = new();
-            note2.Date_note = new DateTime(2023, 02, 18);
+            note2.Date_note = new DateTime(2023, 03, 02);
             note2.Name = "Позвонить маме";
             note2.Text = "Обещал позвонить";
 
             notes.Add(note2);
 
             Note note3 = new();
-            note3.Date_note = new DateTime(2023, 02, 19);
+            note3.Date_note = new DateTime(2023, 03, 02);
             note3.Name = "Сходить на пары";
             note3.Text = "08.30-10.00 1 Основы философии\tВ.О. Никишин\r\n" +
                 "10.10-11.40 2 Компьютерные сети\tК.А. Дзюба\r\n" +
@@ -46,14 +46,14 @@ namespace Wpf_Diary
             notes.Add(note3);
 
             Note note4 = new();
-            note4.Date_note = new DateTime(2023, 02, 19);
+            note4.Date_note = new DateTime(2023, 03, 04);
             note4.Name = "Съездить к сестре";
             note4.Text = "Отвезти пакет";
 
             notes.Add(note4);
 
             Note note5 = new();
-            note5.Date_note = new DateTime(2023, 02, 20);
+            note5.Date_note = new DateTime(2023, 03, 04);
             note5.Name = "Сходить на пары";
             note5.Text = "08.30-10.00 1 Элементы высшей математики\tМ.В. Черемных\r\n" +
                 "10.10-11.40 2 Информационные технологии\tА.Г. Молодцова\r\n" +

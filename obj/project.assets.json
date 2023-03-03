@@ -1126,11 +1126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlexeyProtsenko\\Desktop\\Основы алгоритмизации и программирования\\С#\\Wpf_Diary\\Wpf_Diary.csproj",
+      "projectUniqueName": "C:\\Users\\AlexeyProtsenko\\Source\\Repos\\Diary-WPF\\Wpf_Diary.csproj",
       "projectName": "Wpf_Diary",
-      "projectPath": "C:\\Users\\AlexeyProtsenko\\Desktop\\Основы алгоритмизации и программирования\\С#\\Wpf_Diary\\Wpf_Diary.csproj",
+      "projectPath": "C:\\Users\\AlexeyProtsenko\\Source\\Repos\\Diary-WPF\\Wpf_Diary.csproj",
       "packagesPath": "C:\\Users\\AlexeyProtsenko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlexeyProtsenko\\Desktop\\Основы алгоритмизации и программирования\\С#\\Wpf_Diary\\obj\\",
+      "outputPath": "C:\\Users\\AlexeyProtsenko\\Source\\Repos\\Diary-WPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AlexeyProtsenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
